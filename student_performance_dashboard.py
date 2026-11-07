@@ -6,7 +6,7 @@ with st.form("Student Performance"):
     st.subheader("Student Information")
 
     name = st.text_input("Student Name :")
-    age = st.number_input("Age :",min_value=1,max_value=100)
+    age = st.number_input("Age :",min_value=1,max_value=100,step=1)
     gender = st.radio("Gender",
                     ["Male","Female","Other"])
 
